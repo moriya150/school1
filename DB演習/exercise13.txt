@@ -1,0 +1,5 @@
+SELECT
+	NAME_ID AS 解答者,
+    	SCORE AS 正解数
+FROM RESULT_TABLE
+;

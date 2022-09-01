@@ -1,0 +1,4 @@
+SELECT
+	MIN(TIME)AS '最速タイム'
+FROM RESULT_TABLE
+;

@@ -1,0 +1,5 @@
+SELECT
+	CONCAT('スコア:',SCORE,'点'),
+	CONCAT('タイム:',TIME,'秒')
+FROM RESULT_TABLE
+;
