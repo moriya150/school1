@@ -1,0 +1,12 @@
+SELECT
+	RESULT_ID,
+    
+    CASE
+    WHEN SCORE > 20 THEN 'Aランク'
+    WHEN SCORE >= 10 AND SCORE <= 20 THEN 'Bランク'
+    WHEN SCORE < 10 THEN 'Cランク'
+    ELSE 'ERROR' 
+    END AS 'ランク'
+    
+FROM result_table
+    ;

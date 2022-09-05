@@ -1,0 +1,12 @@
+SELECT
+	QUESTION,
+    
+    CASE
+    WHEN LEVEL = 5 THEN '難しい'
+    WHEN LEVEL = 3 OR LEVEL = 4 THEN '普通'
+    WHEN LEVEL = 1 OR LEVEL = 2 THEN '簡単'
+    ELSE 'ERROR' 
+    END AS 'ランク'
+    
+FROM QUESTION_TABLE
+;
