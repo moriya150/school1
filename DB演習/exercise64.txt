@@ -1,0 +1,5 @@
+UPDATE
+QUESTION_TABLE
+	SET
+    ANSWER = CONCAT('答えは',ANSWER,'です')
+;

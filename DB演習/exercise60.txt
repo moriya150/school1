@@ -1,0 +1,6 @@
+INSERT
+INTO NAME_TABLE
+	(NAME,RANK)
+VALUES
+	('新規プレーヤー','C')
+;

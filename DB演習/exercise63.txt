@@ -1,0 +1,5 @@
+UPDATE
+NAME_TABLE
+	SET
+    NAME = CONCAT(NAME,'様')
+;
