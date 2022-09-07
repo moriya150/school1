@@ -1,0 +1,10 @@
+INSERT
+	INTO
+    	RESULT_TABLE
+        (NAME_ID,SCORE,TIME,CATEGORY,PLAYDATE)
+	VALUES
+    	('1','20','40','理科',"課題実施日の日付");
+	SELECT *
+    FROM RESULT_TABLE
+	ORDER BY SCORE DESC
+    ;
